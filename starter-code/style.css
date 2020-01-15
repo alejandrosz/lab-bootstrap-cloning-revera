@@ -1,21 +1,76 @@
 .row > div,
 main > div > div{
-    border: 1px solid grey;
-    background: lightgray;
     min-height: 64px;
 }
 
-body .row,
-/* main > div {
-    margin-bottom: 24px;
-} */
+
+.nav {
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.nav ol {display: flex;}
+
+.nav ol li {
+list-style-type: none;
+margin:10px;
+color: grey;} 
 
 .center {
   text-align: center;
 }
 
+.back-image {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  background-image: url("../starter-code/img/overlay.png");
+  color: white;
+}
+.latest h3 {font-size: 1.1em;}
+
+.back-image button {
+  width: 150px;
+  border: 1px solid white;
+ color: white;
+ background-color: transparent;
+}
+
+.margin-top {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey
+}
+
+.red {background-color: rgb(212, 22, 22);
+color: white;
+padding: 30px;
+border-top: 10px solid rgb(167, 108, 0);}
+
 .icon {
   border: 3px solid white;
   padding: 15px;
   border-radius: 50%;
+}
+
+.grey {
+  background-color: rgb(66, 66, 66);
+  color: rgb(189, 189, 189);
+  border-top: 5px solid grey;
+  padding: 20px 0;
+}
+
+.grey a {text-decoration: none;
+color: rgb(189, 189, 189);}
+
+.grey p {text-decoration: none;
+  color: rgb(189, 189, 189);
+  border-bottom: 1px solid rgb(189, 189, 189);}
+
+.dark-grey {
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
